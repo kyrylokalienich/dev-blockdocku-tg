@@ -35,7 +35,8 @@ body {
 
   cursor: default;
   color: #888;
-  background-color: #333;
+  background: linear-gradient(180deg, #99B8FB 0%, #5E76F9 100%);
+
 
   text-align: center;
   font-family: Helvetica, Verdana, Arial, sans-serif;
