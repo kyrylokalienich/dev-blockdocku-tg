@@ -35,7 +35,7 @@ input::-webkit-inner-spin-button {
 }
 
 canvas {
-  background: linear-gradient(180deg, #99B8FB 0%, #5E76F9 100%);
+  /* background: linear-gradient(180deg, #99B8FB 0%, #5E76F9 100%); */
 
 }
 
@@ -59,6 +59,8 @@ p.footer {
   position: absolute;
   top: 0;
   left: 0;
+  right: 0;
+  bottom: 0;
   width: 100%;
   height: 100%;
   background: linear-gradient(180deg, #99B8FB 0%, #5E76F9 100%);
