@@ -87,7 +87,7 @@ p.footer {
   left: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(180deg, #99B8FB 0%, #5E76F9 100%);
+  background: none;
 
   background-size: 45%;
 }
@@ -100,7 +100,7 @@ p.footer {
     padding: 2px;
     width: 45%;
     border-radius: 7px;
-    box-shadow: 0 1px 5px #fff inset, 0 1px 0 #444;           
+    box-shadow: 0 1px 5px #000 inset, 0 1px 0 #444;           
 }
 
 .progress-bar span {
