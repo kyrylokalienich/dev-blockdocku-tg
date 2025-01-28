@@ -62,7 +62,7 @@ body {
 }
 
 canvas {
-  background-color: rgba(0, 0, 0, 0);
+  background: linear-gradient(180deg, #99B8FB 0%, #5E76F9 100%);
 }
 
 a:link, a:visited {
