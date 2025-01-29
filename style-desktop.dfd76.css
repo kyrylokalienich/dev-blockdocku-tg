@@ -35,8 +35,7 @@ input::-webkit-inner-spin-button {
 }
 
 canvas {
-  /* background: linear-gradient(180deg, #99B8FB 0%, #5E76F9 100%); */
-
+  background-color: rgba(0, 0, 0, 0);
 }
 
 a:link, a:visited {
@@ -59,17 +58,15 @@ p.footer {
   position: absolute;
   top: 0;
   left: 0;
-  right: 0;
-  bottom: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(180deg, #99B8FB 0%, #5E76F9 100%);
 
+  background: #171717 url(./splash.85cfd.png) no-repeat center;
   background-size: 350px;
 }
 
 .progress-bar {
-    background-color: #fff;
+    background-color: #1a1a1a;
     position: absolute;
     left: 50%;
     top: 80%;
@@ -86,8 +83,7 @@ p.footer {
     border-radius: 5px;
     box-shadow: 0 1px 0 rgba(255, 255, 255, .5) inset;
     transition: width .4s ease-in-out; 
-    background: linear-gradient(180deg, #FF8465 0%, #FE5F3A 100%);
-
+    background-color: #3dc5de;
 }
 
 .stripes span {
