@@ -111,7 +111,7 @@ p.footer {
     height: 100%;
     border-radius: 3px;
     transition: width .4s ease-in-out;
-    background: linear-gradient(180deg, #FF8465 0%, #FE5F3A 100%);
+    background: #FE5F3A;
 
 }
 
