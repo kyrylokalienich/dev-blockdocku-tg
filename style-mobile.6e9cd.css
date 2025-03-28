@@ -35,8 +35,7 @@ body {
 
   cursor: default;
   color: #888;
-  /* background: linear-gradient(180deg, #99B8FB 0%, #5E76F9 100%); */
-
+  background-color: #333;
 
   text-align: center;
   font-family: Helvetica, Verdana, Arial, sans-serif;
@@ -63,7 +62,7 @@ body {
 }
 
 canvas {
-  /* background: linear-gradient(180deg, #99B8FB 0%, #5E76F9 100%); */
+  background-color: rgba(0, 0, 0, 0);
 }
 
 a:link, a:visited {
@@ -86,13 +85,10 @@ p.footer {
   position: absolute;
   top: 0;
   left: 0;
-  right: 0;
-  bottom: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(180deg, #99B8FB 0%, #5E76F9 100%);
-
-  /* //background-size: 45%; */
+  background: #171717 url(./splash.85cfd.png) no-repeat center;
+  background-size: 45%;
 }
 
 .progress-bar {
@@ -111,8 +107,7 @@ p.footer {
     height: 100%;
     border-radius: 3px;
     transition: width .4s ease-in-out;
-    background: #FE5F3A;
-
+    background-color: #3dc5de;
 }
 
 .stripes span {
