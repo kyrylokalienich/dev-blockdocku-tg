@@ -39,6 +39,7 @@
 
 <!-- ads -->
 <script data-onclicka-banner="309993" async src="https://js.onclckmn.com/banner-admanager/oncbanner.m.js" data-onclicka-banner-ar="c"></script>
+<script src="https://js.onclckvd.com/in-stream-ad-admanager/tma.js"></script>
 <!-- end ads -->
 
 
@@ -80,6 +81,14 @@
     display: none;
     justify-content: center;
 	"></div>
+
+<script>
+  // Initialize the ad engine and get the SHOW method to display ads
+  window.initCdTma?.({ id: 6065984 }).then(show => window.show_6065984 = show).catch(e => console.log(e))
+</script>
+<button onclick="window.show_6065984?.().then(() => console.log('tma ad played')).catch(e => console.log(e))">
+  Play Ad
+</button>
 <!-- end ads -->
 
 
