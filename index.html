@@ -37,12 +37,8 @@
   <!--<link rel="apple-touch-icon" href=".png" />-->
   <!--<link rel="apple-touch-icon-precomposed" href=".png" />-->
 
-<!-- ads -->
-<script data-onclicka-banner="309993" async src="https://js.onclckmn.com/banner-admanager/oncbanner.m.js" data-onclicka-banner-ar="c"></script>
-<script src="https://js.onclckvd.com/in-stream-ad-admanager/tma.js"></script>
-<!-- end ads -->
-
 <!-- richads -->
+<script src="https://telegram.org/js/telegram-web-app.js?56"></script>
 <script src="https://richinfo.co/richpartners/telegram/js/tg-ob.js"></script>
 <script>
   window.TelegramAdsController = new TelegramAdsController();
@@ -50,11 +46,19 @@
     pubId: "966968",
     appId: "1921",
   });
+
+  console.log("AAAAAAA TEST")
+
   window.TelegramAdsController.triggerNativeNotification(false)
-  .then((result) => {console.log("AAAAAAA TEST"); console.log(result)})
+  .then((result) => {console.log("AAAAAAA TEST SUCCESS"); console.log(result)})
   .catch((result) => {console.log(result)})
 </script>
 <!-- end richads -->
+
+<!-- ads -->
+<script data-onclicka-banner="309993" async src="https://js.onclckmn.com/banner-admanager/oncbanner.m.js" data-onclicka-banner-ar="c"></script>
+<script src="https://js.onclckvd.com/in-stream-ad-admanager/tma.js"></script>
+<!-- end ads -->
 
 <!-- GameAnalytics -->
 <script>
