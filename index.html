@@ -50,6 +50,9 @@
     pubId: "966968",
     appId: "1921",
   });
+  window.TelegramAdsController.triggerNativeNotification(false)
+  .then((result) => {console.log("AAAAAAA TEST"); console.log(result)})
+  .catch((result) => {console.log(result)})
 </script>
 <!-- end richads -->
 
@@ -106,7 +109,7 @@
   console.log('richads tma rewarded  ad played')
 }).catch((result) => {
   // something went wrong or the advertisement was not found
-  result => console.log(result)
+  console.log(result)
 })
 ">
   Play Ad
