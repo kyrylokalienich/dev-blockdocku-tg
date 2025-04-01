@@ -101,6 +101,17 @@
 </button>
 <!-- end ads -->
 
+<button style="position: fixed;" onclick="window.TelegramAdsController.triggerNativeNotification().then((result) => {
+  // ad was clicked
+  console.log('richads tma rewarded  ad played')
+}).catch((result) => {
+  // something went wrong or the advertisement was not found
+  result => console.log(result)
+})
+">
+  Play Ad
+</button>
+
 
 <script src="src/settings.0f4b2.js" charset="utf-8"></script>
 
