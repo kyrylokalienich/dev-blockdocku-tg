@@ -34,44 +34,6 @@
   <!--<meta name="browsermode" content="application">-->
   <meta name="x5-page-mode" content="app">
 
-<!-- richads -->
-<script src="https://telegram.org/js/telegram-web-app.js?56"></script>
-<script src="https://richinfo.co/richpartners/telegram/js/tg-ob.js"></script>
-<script>
-  window.TelegramAdsController = new TelegramAdsController();
-  window.TelegramAdsController.initialize({
-    pubId: "966968",
-    appId: "1921",
-  });
-
-  console.log("AAAAAAA TEST")
-
-  window.TelegramAdsController.triggerNativeNotification(false)
-  .then((result) => {console.log("AAAAAAA TEST SUCCESS"); console.log(result)})
-  .catch((result) => {console.log(result)})
-</script>
-<!-- end richads -->
-
-<!-- ads -->
-<script data-onclicka-banner="309993" async src="https://js.onclckmn.com/banner-admanager/oncbanner.m.js" data-onclicka-banner-ar="c"></script>
-<script src="https://js.onclckvd.com/in-stream-ad-admanager/tma.js"></script>
-<!-- end ads -->
-
-<!-- GameAnalytics -->
-<script>
-  (function(w,d,a,m){var s='script';var g='GameAnalytics';w[g]=w[g]||function(){(w[g].q=w[g].q||[]).push(arguments)},a=d.createElement(s),m=d.getElementsByTagName(s)[0];a.async=1;a.src='https://download.gameanalytics.com/js/GameAnalytics-4.2.0.min.js';m.parentNode.insertBefore(a,m)})(window,document);
-  
-  GameAnalytics("setEnabledInfoLog", true);
-  GameAnalytics("initialize", "6ec8f613b8f0895293b116753493ae6f", "b723e9fc61820727d9914097e6d0ab4464fd836b");
-</script>
-<!-- End GameAnalytics -->
-
-<script src="https://cdn.jsdelivr.net/npm/eruda"></script>
-    <script>
-      // Initialize Eruda
-      eruda.init();
-    </script>
-
   <!--<link rel="apple-touch-icon" href=".png" />-->
   <!--<link rel="apple-touch-icon-precomposed" href=".png" />-->
 
@@ -85,38 +47,10 @@
       <span style="width: 0%"></span>
     </div>
   </div>
-<!-- ads -->
-<div id="ads-banner-1" data-banner-id="6065151" style="
-    position: fixed;
-    bottom:0%;
-    width:100%;
-    display: none;
-    justify-content: center;
-	"></div>
 
-<script>
-  // Initialize the ad engine and get the SHOW method to display ads
-  window.initCdTma?.({ id: 6065984 }).then(show => window.show_6065984 = show).catch(e => console.log(e))
-</script>
-<button onclick="window.show_6065984?.().then(() => console.log('tma ad played')).catch(e => console.log(e))">
-  Play Ad
-</button>
-<!-- end ads -->
+<script src="src/settings.3ccca.js" charset="utf-8"></script>
 
-<button onclick="window.TelegramAdsController.triggerNativeNotification().then((result) => {
-  // ad was clicked
-  console.log('richads tma rewarded  ad played')
-}).catch((result) => {
-  // something went wrong or the advertisement was not found
-  console.log(result)
-})
-">
-  Play Ad
-</button>
-
-<script src="src/settings.e6565.js" charset="utf-8"></script>
-
-<script src="main.61600.js" charset="utf-8"></script>
+<script src="main.509e5.js" charset="utf-8"></script>
 
 <script type="text/javascript">
 (function () {
