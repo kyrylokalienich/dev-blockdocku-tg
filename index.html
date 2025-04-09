@@ -42,6 +42,7 @@
   window.TelegramAdsController.initialize({
     pubId: "966968",
     appId: "1921",
+    debug: true,
   });
 </script>
 <!-- end richads -->
@@ -101,7 +102,7 @@
 <!-- end ads -->
 
 <!-- rich ads -->
-<button style="display: block;" id="ad-button-richads">
+<button style="position: fixed;" id="ad-button-richads">
   TEST RICHADS
 </button>
 <!-- end rich ads-->
@@ -110,7 +111,7 @@
  const button = document.getElementById('ad-button-richads');
     button?.addEventListener('click', () => {
         console.log("AAAAAAA TEST")
-        window.TelegramAdsController.triggerNativeNotification().then((result) => {
+        window.TelegramAdsController.triggerNativeNotification(false).then((result) => {
             console.log("AAAAAAA TEST SUCCESS. ad was clicked");
         }).catch((result) => {
             console.log("AAAAAAA TEST FAIL. something went wrong or the advertisement was not found")
