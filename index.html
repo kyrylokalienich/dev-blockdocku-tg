@@ -43,12 +43,6 @@
     pubId: "966968",
     appId: "1921",
   });
-
-  console.log("AAAAAAA TEST")
-
-  window.TelegramAdsController.triggerNativeNotification(false)
-    .then((result) => { console.log("AAAAAAA TEST SUCCESS"); console.log(result) })
-    .catch((result) => { console.log(result) })
 </script>
 <!-- end richads -->
 
@@ -106,21 +100,28 @@
 </button>
 <!-- end ads -->
 
-<button onclick="window.TelegramAdsController.triggerNativeNotification().then((result) => {
-  // ad was clicked
-  console.log('richads tma rewarded  ad played')
-}).catch((result) => {
-  // something went wrong or the advertisement was not found
-  console.log(result)
-})
-">
-  Play Ad
+<!-- rich ads -->
+<button style="display: block;" id="ad-button-richads">
+  TEST RICHADS
 </button>
+<!-- end rich ads-->
 
+<script type="text/javascript">
+ const button = document.getElementById('ad-button-richads');
+    button?.addEventListener('click', () => {
+        console.log("AAAAAAA TEST")
+        window.TelegramAdsController.triggerNativeNotification().then((result) => {
+            console.log("AAAAAAA TEST SUCCESS. ad was clicked");
+        }).catch((result) => {
+            console.log("AAAAAAA TEST FAIL. something went wrong or the advertisement was not found")
+            console.log(result)
+        })
+    })
+</script>
 
-<script src="src/settings.cfb3d.js" charset="utf-8"></script>
+<script src="src/settings.e033e.js" charset="utf-8"></script>
 
-<script src="main.b39d0.js" charset="utf-8"></script>
+<script src="main.3d49f.js" charset="utf-8"></script>
 
 <script type="text/javascript">
 (function () {
