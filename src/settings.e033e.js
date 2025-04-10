@@ -1,1 +1,0 @@
-window._CCSettings={platform:"web-mobile",groupList:["default","ui"],collisionMatrix:[[true],[false,false]],hasResourcesBundle:true,hasStartSceneBundle:false,remoteBundles:[],subpackages:[],launchScene:"db://assets/Game.fire",orientation:"portrait",jsList:["assets/scripts/modules/crypto-js.e8870.js"],bundleVers:{internal:"02311",resources:"1093d",main:"477e4"}};
