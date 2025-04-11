@@ -114,7 +114,7 @@ width: 200px;" id="ad-button-richads">
  const button = document.getElementById('ad-button-richads');
     button?.addEventListener('click', () => {
         console.log("AAAAAAA TEST")
-        window.TelegramAdsController.triggerNativeNotification().then((result) => {
+        window.TelegramAdsController.triggerNativeNotification(true).then((result) => {
             console.log("AAAAAAA TEST SUCCESS. ad was clicked");
         }).catch((result) => {
             console.log("AAAAAAA TEST FAIL. something went wrong or the advertisement was not found")
