@@ -47,6 +47,10 @@
 </script>
 <!-- end richads -->
 
+<!-- tads -->
+<script src="https://w.tads.me/widget.js" async></script>
+<!-- tads end-->
+
 <!-- ads -->
 <script data-onclicka-banner="309993" async src="https://js.onclckmn.com/banner-admanager/oncbanner.m.js"
   data-onclicka-banner-ar="c"></script>
@@ -105,20 +109,24 @@
 <button id="ad-button-richads">
   TEST RICHADS
 </button>
-<!-- end rich ads-->
 
 <script type="text/javascript">
- const button = document.getElementById('ad-button-richads');
-    button?.addEventListener('click', () => {
-        console.log("AAAAAAA TEST")
-        window.TelegramAdsController.triggerNativeNotification(true).then((result) => {
-            console.log("AAAAAAA TEST SUCCESS. ad was clicked");
-        }).catch((result) => {
-            console.log("AAAAAAA TEST FAIL. something went wrong or the advertisement was not found")
-            console.log(result)
-        })
+  const button = document.getElementById('ad-button-richads');
+  button?.addEventListener('click', () => {
+    console.log("AAAAAAA TEST")
+    window.TelegramAdsController.triggerNativeNotification(true).then((result) => {
+      console.log("AAAAAAA TEST SUCCESS. ad was clicked");
+    }).catch((result) => {
+      console.log("AAAAAAA TEST FAIL. something went wrong or the advertisement was not found")
+      console.log(result)
     })
+  })
 </script>
+<!-- end rich ads-->
+
+<!-- tads -->
+<div id="tads-container-403"></div>
+<!-- end tads-->
 
 <script src="src/settings.d055a.js" charset="utf-8"></script>
 
